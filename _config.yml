@@ -10,7 +10,7 @@ title: Orin USA
 email: cpeak66@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Orin USA is a dedicated provider of Technical and Human Capital Resources, categorized as premier provider for some of our largest and long-standing clients. Our consultants have added value in numerous areas, including but not limited to; engineering, designing, developing, deploying and operating/managing multiple projects and product lines across a number of industries.
-baseurl: "/orinengusa" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://orinusa.com" # the base hostname & protocol for your site
 twitter_username: jekyllrb
 github_username:  jekyll
