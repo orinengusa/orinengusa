@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+}
+
+body,
+html {
+  font-family: $sans-serif;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  color: $charcoal;
+  line-height: 1.5em;
+  font-weight: 300;
+}
+
+
+
+.centered {
+  text-align: center;
+}
+
+.module-title {
+  color: $gray;
+  font-size: 1.5em;
+  font-weight: 300;
+  letter-spacing: -0.02em;
+  text-align: center;
+  margin: 0;
+  @include media($small) {
+    font-size: 2em;
+    margin: 2em 0 .5em 0;
+  }
+}
+
+.module-subtitle {
+  font-size: 1em;
+  font-weight: 300;
+  line-height: 1.25em;
+  margin: .5em auto 1.5em auto;
+  text-align: center;
+  max-width: 30em;
+  @include media($small) {
+    font-size: 1.25em;
+    margin-bottom: 3em;
+  }
+}
+
+
+
+footer.site-footer {
+  background: $off-white;
+  color: lighten($charcoal, 40%);
+  font-size: 0.8em;
+  text-align: center;
+  padding: 5em 0;
+  text-shadow: 0 1px 0 white;
+}

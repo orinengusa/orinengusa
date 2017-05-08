@@ -1,0 +1,27 @@
+$sans-serif: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+$site-width: 1000px;
+
+$small: 600px;
+
+$charcoal:  #3b3b3b;
+$gray:      #CCC;
+$hairline:  #dddddd;
+$off-white: #f9f9f9;
+$orin-blue: #2473B6;
+$soft-blue: #F2F6F9;
+
+
+@mixin input-reset {
+  -webkit-appearance: none;
+  font-size: 1em;
+  border: none;
+  border-radius: none;
+  font-family: $sans-serif;
+}
+
+@mixin media($break) {
+  @media screen and (min-width: $break) {
+    @content;
+  }
+}

@@ -1,0 +1,30 @@
+.content {
+  @include outer-container($site-width);
+  padding: 0 10px;
+}
+
+
+[class*="module__"] {
+  border-bottom: 1px solid $hairline;
+  padding: 2em 0;
+  &.alternate {
+    background: $soft-blue;
+  }
+  @include media($small) {
+    padding: 4em 0;
+  }
+}
+
+.module__slim .panel {
+  @include media($small) {
+    @include span-columns(6);
+    @include shift(3);
+  }
+}
+
+.module__thirds .panel {
+  margin-bottom: 1em;
+  @include media($small) {
+    @include span-columns(4);
+  }
+}
